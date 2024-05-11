@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is Clang, found in:
-        /home/matrix/Matrixlang/lexer/CMakeFiles/3.29.3/CompilerIdC/a.out
+        /home/matrix/Compiler-Lexer/lexer/CMakeFiles/3.29.3/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is Clang, found in:
-        /home/matrix/Matrixlang/lexer/CMakeFiles/3.29.3/CompilerIdCXX/a.out
+        /home/matrix/Compiler-Lexer/lexer/CMakeFiles/3.29.3/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp"
-      binary: "/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp"
+      source: "/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU"
+      binary: "/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
       CMAKE_C_FLAGS: ""
@@ -72,13 +72,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp'
+        Change Dir: '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_a5143/fast
-        /usr/sbin/make  -f CMakeFiles/cmTC_a5143.dir/build.make CMakeFiles/cmTC_a5143.dir/build
-        make[1]: Entering directory '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp'
-        Building C object CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o
-        /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_57d6a/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_57d6a.dir/build.make CMakeFiles/cmTC_57d6a.dir/build
+        make[1]: Entering directory '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU'
+        Building C object CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         clang version 17.0.6
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -90,7 +90,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
          (in-process)
-         "/usr/bin/clang-17" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp -resource-dir /usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+         "/usr/bin/clang-17" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU -resource-dir /usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -100,9 +100,9 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        Linking C executable cmTC_a5143
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5143.dir/link.txt --verbose=1
-        /usr/bin/clang  -v -Wl,-v CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -o cmTC_a5143
+        Linking C executable cmTC_57d6a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57d6a.dir/link.txt --verbose=1
+        /usr/bin/clang  -v -Wl,-v CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -o cmTC_57d6a
         clang version 17.0.6
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -113,9 +113,9 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a5143 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crtn.o
+         "/usr/bin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_57d6a /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crtn.o
         GNU ld (GNU Binutils) 2.42.0
-        make[1]: Leaving directory '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp'
+        make[1]: Leaving directory '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU'
         
       exitCode: 0
   -
@@ -148,13 +148,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp']
+        ignore line: [Change Dir: '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_a5143/fast]
-        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_a5143.dir/build.make CMakeFiles/cmTC_a5143.dir/build]
-        ignore line: [make[1]: Entering directory '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp']
-        ignore line: [Building C object CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_57d6a/fast]
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_57d6a.dir/build.make CMakeFiles/cmTC_57d6a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU']
+        ignore line: [Building C object CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang version 17.0.6]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -169,7 +169,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang-17" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp -resource-dir /usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Viglxp -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/usr/bin/clang-17" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU -resource-dir /usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-65xEKU -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -179,9 +179,9 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_a5143]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5143.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/clang  -v -Wl -v CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -o cmTC_a5143]
+        ignore line: [Linking C executable cmTC_57d6a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57d6a.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/clang  -v -Wl -v CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -o cmTC_57d6a]
         ignore line: [clang version 17.0.6]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -195,7 +195,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a5143 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_57d6a /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [-pie] ==> ignore
           arg [--hash-style=gnu] ==> ignore
@@ -206,7 +206,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a5143] ==> ignore
+          arg [cmTC_57d6a] ==> ignore
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o]
@@ -217,7 +217,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_a5143.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_57d6a.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--as-needed] ==> ignore
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -266,8 +266,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX"
-      binary: "/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX"
+      source: "/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1"
+      binary: "/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
       CMAKE_CXX_FLAGS: ""
@@ -278,13 +278,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX'
+        Change Dir: '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_5a6a9/fast
-        /usr/sbin/make  -f CMakeFiles/cmTC_5a6a9.dir/build.make CMakeFiles/cmTC_5a6a9.dir/build
-        make[1]: Entering directory '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX'
-        Building CXX object CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_b4f39/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_b4f39.dir/build.make CMakeFiles/cmTC_b4f39.dir/build
+        make[1]: Entering directory '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1'
+        Building CXX object CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang version 17.0.6
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -296,7 +296,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
          (in-process)
-         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX -resource-dir /usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/backward -internal-isystem /usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1 -resource-dir /usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/backward -internal-isystem /usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1 -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -309,9 +309,9 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        Linking CXX executable cmTC_5a6a9
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a6a9.dir/link.txt --verbose=1
-        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5a6a9
+        Linking CXX executable cmTC_b4f39
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f39.dir/link.txt --verbose=1
+        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b4f39
         clang version 17.0.6
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -322,9 +322,9 @@ events:
         Candidate multilib: .;@m64
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
-         "/usr/bin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5a6a9 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crtn.o
+         "/usr/bin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b4f39 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crtn.o
         GNU ld (GNU Binutils) 2.42.0
-        make[1]: Leaving directory '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX'
+        make[1]: Leaving directory '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1'
         
       exitCode: 0
   -
@@ -363,13 +363,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX']
+        ignore line: [Change Dir: '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_5a6a9/fast]
-        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_5a6a9.dir/build.make CMakeFiles/cmTC_5a6a9.dir/build]
-        ignore line: [make[1]: Entering directory '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX']
-        ignore line: [Building CXX object CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_b4f39/fast]
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_b4f39.dir/build.make CMakeFiles/cmTC_b4f39.dir/build]
+        ignore line: [make[1]: Entering directory '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1']
+        ignore line: [Building CXX object CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 17.0.6]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -384,7 +384,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX -resource-dir /usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/backward -internal-isystem /usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-VvWoYX -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1 -resource-dir /usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../include/c++/14.1.1/backward -internal-isystem /usr/lib/clang/17/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-dpikI1 -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.6 based upon LLVM 17.0.6 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -397,9 +397,9 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_5a6a9]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a6a9.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5a6a9]
+        ignore line: [Linking CXX executable cmTC_b4f39]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4f39.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b4f39]
         ignore line: [clang version 17.0.6]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -413,7 +413,7 @@ events:
         ignore line: [@m32]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5a6a9 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" -pie --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b4f39 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [-pie] ==> ignore
           arg [--hash-style=gnu] ==> ignore
@@ -424,7 +424,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5a6a9] ==> ignore
+          arg [cmTC_b4f39] ==> ignore
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/Scrt1.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/../../../../lib64/crti.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/14.1.1/crtbeginS.o]
@@ -435,7 +435,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5a6a9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_b4f39.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -480,13 +480,13 @@ events:
       - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "/usr/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
       - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
-      - "_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
-      - "_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
-    checks:
-      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib/cmake/GTest/GTestConfig.cmake:39 (find_dependency)"
+      - "/usr/share/cmake/Modules/FindGTest.cmake:194 (find_package)"
+      - "CMakeLists.txt:20 (find_package)"
     directories:
-      source: "/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Ssrz2t"
-      binary: "/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Ssrz2t"
+      source: "/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-QHf0Zd"
+      binary: "/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-QHf0Zd"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
       CMAKE_C_FLAGS: ""
@@ -496,17 +496,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Ssrz2t'
+        Change Dir: '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-QHf0Zd'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_8a81f/fast
-        /usr/sbin/make  -f CMakeFiles/cmTC_8a81f.dir/build.make CMakeFiles/cmTC_8a81f.dir/build
-        make[1]: Entering directory '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Ssrz2t'
-        Building C object CMakeFiles/cmTC_8a81f.dir/src.c.o
-        /usr/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_8a81f.dir/src.c.o -MF CMakeFiles/cmTC_8a81f.dir/src.c.o.d -o CMakeFiles/cmTC_8a81f.dir/src.c.o -c /home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Ssrz2t/src.c
-        Linking C executable cmTC_8a81f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a81f.dir/link.txt --verbose=1
-        /usr/bin/clang CMakeFiles/cmTC_8a81f.dir/src.c.o -o cmTC_8a81f
-        make[1]: Leaving directory '/home/matrix/Matrixlang/lexer/CMakeFiles/CMakeScratch/TryCompile-Ssrz2t'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_753f2/fast
+        /usr/sbin/make  -f CMakeFiles/cmTC_753f2.dir/build.make CMakeFiles/cmTC_753f2.dir/build
+        make[1]: Entering directory '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-QHf0Zd'
+        Building C object CMakeFiles/cmTC_753f2.dir/src.c.o
+        /usr/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_753f2.dir/src.c.o -MF CMakeFiles/cmTC_753f2.dir/src.c.o.d -o CMakeFiles/cmTC_753f2.dir/src.c.o -c /home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-QHf0Zd/src.c
+        Linking C executable cmTC_753f2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_753f2.dir/link.txt --verbose=1
+        /usr/bin/clang CMakeFiles/cmTC_753f2.dir/src.c.o -o cmTC_753f2
+        make[1]: Leaving directory '/home/matrix/Compiler-Lexer/lexer/CMakeFiles/CMakeScratch/TryCompile-QHf0Zd'
         
       exitCode: 0
 ...

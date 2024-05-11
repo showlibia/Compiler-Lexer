@@ -1,4 +1,4 @@
-/home/matrix/Matrixlang/lexer/CMakeFiles/LexerTest.dir
-/home/matrix/Matrixlang/lexer/CMakeFiles/test.dir
-/home/matrix/Matrixlang/lexer/CMakeFiles/edit_cache.dir
-/home/matrix/Matrixlang/lexer/CMakeFiles/rebuild_cache.dir
+/home/matrix/Compiler-Lexer/lexer/CMakeFiles/LexerTest.dir
+/home/matrix/Compiler-Lexer/lexer/CMakeFiles/test.dir
+/home/matrix/Compiler-Lexer/lexer/CMakeFiles/edit_cache.dir
+/home/matrix/Compiler-Lexer/lexer/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+/home/matrix/Compiler-Lexer/build/CMakeFiles/LexerTest.dir
+/home/matrix/Compiler-Lexer/build/CMakeFiles/test.dir
+/home/matrix/Compiler-Lexer/build/CMakeFiles/edit_cache.dir
+/home/matrix/Compiler-Lexer/build/CMakeFiles/rebuild_cache.dir

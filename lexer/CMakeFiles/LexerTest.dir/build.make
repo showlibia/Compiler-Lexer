@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matrix/Matrixlang/lexer
+CMAKE_SOURCE_DIR = /home/matrix/Compiler-Lexer/lexer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matrix/Matrixlang/lexer
+CMAKE_BINARY_DIR = /home/matrix/Compiler-Lexer/lexer
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LexerTest.dir/depend.make
@@ -69,96 +69,96 @@ include CMakeFiles/LexerTest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LexerTest.dir/flags.make
 
-CMakeFiles/LexerTest.dir/token.cc.o: CMakeFiles/LexerTest.dir/flags.make
-CMakeFiles/LexerTest.dir/token.cc.o: token.cc
-CMakeFiles/LexerTest.dir/token.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Matrixlang/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LexerTest.dir/token.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/token.cc.o -MF CMakeFiles/LexerTest.dir/token.cc.o.d -o CMakeFiles/LexerTest.dir/token.cc.o -c /home/matrix/Matrixlang/lexer/token.cc
+CMakeFiles/LexerTest.dir/src/token.cc.o: CMakeFiles/LexerTest.dir/flags.make
+CMakeFiles/LexerTest.dir/src/token.cc.o: src/token.cc
+CMakeFiles/LexerTest.dir/src/token.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LexerTest.dir/src/token.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/src/token.cc.o -MF CMakeFiles/LexerTest.dir/src/token.cc.o.d -o CMakeFiles/LexerTest.dir/src/token.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/token.cc
 
-CMakeFiles/LexerTest.dir/token.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/token.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Matrixlang/lexer/token.cc > CMakeFiles/LexerTest.dir/token.cc.i
+CMakeFiles/LexerTest.dir/src/token.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/src/token.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Compiler-Lexer/lexer/src/token.cc > CMakeFiles/LexerTest.dir/src/token.cc.i
 
-CMakeFiles/LexerTest.dir/token.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/token.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Matrixlang/lexer/token.cc -o CMakeFiles/LexerTest.dir/token.cc.s
+CMakeFiles/LexerTest.dir/src/token.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/src/token.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Compiler-Lexer/lexer/src/token.cc -o CMakeFiles/LexerTest.dir/src/token.cc.s
 
-CMakeFiles/LexerTest.dir/keyword_table.cc.o: CMakeFiles/LexerTest.dir/flags.make
-CMakeFiles/LexerTest.dir/keyword_table.cc.o: keyword_table.cc
-CMakeFiles/LexerTest.dir/keyword_table.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Matrixlang/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LexerTest.dir/keyword_table.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/keyword_table.cc.o -MF CMakeFiles/LexerTest.dir/keyword_table.cc.o.d -o CMakeFiles/LexerTest.dir/keyword_table.cc.o -c /home/matrix/Matrixlang/lexer/keyword_table.cc
+CMakeFiles/LexerTest.dir/src/keyword_table.cc.o: CMakeFiles/LexerTest.dir/flags.make
+CMakeFiles/LexerTest.dir/src/keyword_table.cc.o: src/keyword_table.cc
+CMakeFiles/LexerTest.dir/src/keyword_table.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LexerTest.dir/src/keyword_table.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/src/keyword_table.cc.o -MF CMakeFiles/LexerTest.dir/src/keyword_table.cc.o.d -o CMakeFiles/LexerTest.dir/src/keyword_table.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/keyword_table.cc
 
-CMakeFiles/LexerTest.dir/keyword_table.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/keyword_table.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Matrixlang/lexer/keyword_table.cc > CMakeFiles/LexerTest.dir/keyword_table.cc.i
+CMakeFiles/LexerTest.dir/src/keyword_table.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/src/keyword_table.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Compiler-Lexer/lexer/src/keyword_table.cc > CMakeFiles/LexerTest.dir/src/keyword_table.cc.i
 
-CMakeFiles/LexerTest.dir/keyword_table.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/keyword_table.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Matrixlang/lexer/keyword_table.cc -o CMakeFiles/LexerTest.dir/keyword_table.cc.s
+CMakeFiles/LexerTest.dir/src/keyword_table.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/src/keyword_table.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Compiler-Lexer/lexer/src/keyword_table.cc -o CMakeFiles/LexerTest.dir/src/keyword_table.cc.s
 
-CMakeFiles/LexerTest.dir/lexer.cc.o: CMakeFiles/LexerTest.dir/flags.make
-CMakeFiles/LexerTest.dir/lexer.cc.o: lexer.cc
-CMakeFiles/LexerTest.dir/lexer.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Matrixlang/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LexerTest.dir/lexer.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/lexer.cc.o -MF CMakeFiles/LexerTest.dir/lexer.cc.o.d -o CMakeFiles/LexerTest.dir/lexer.cc.o -c /home/matrix/Matrixlang/lexer/lexer.cc
+CMakeFiles/LexerTest.dir/src/lexer.cc.o: CMakeFiles/LexerTest.dir/flags.make
+CMakeFiles/LexerTest.dir/src/lexer.cc.o: src/lexer.cc
+CMakeFiles/LexerTest.dir/src/lexer.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LexerTest.dir/src/lexer.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/src/lexer.cc.o -MF CMakeFiles/LexerTest.dir/src/lexer.cc.o.d -o CMakeFiles/LexerTest.dir/src/lexer.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/lexer.cc
 
-CMakeFiles/LexerTest.dir/lexer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/lexer.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Matrixlang/lexer/lexer.cc > CMakeFiles/LexerTest.dir/lexer.cc.i
+CMakeFiles/LexerTest.dir/src/lexer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/src/lexer.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Compiler-Lexer/lexer/src/lexer.cc > CMakeFiles/LexerTest.dir/src/lexer.cc.i
 
-CMakeFiles/LexerTest.dir/lexer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/lexer.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Matrixlang/lexer/lexer.cc -o CMakeFiles/LexerTest.dir/lexer.cc.s
+CMakeFiles/LexerTest.dir/src/lexer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/src/lexer.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Compiler-Lexer/lexer/src/lexer.cc -o CMakeFiles/LexerTest.dir/src/lexer.cc.s
 
-CMakeFiles/LexerTest.dir/Mlexer.cc.o: CMakeFiles/LexerTest.dir/flags.make
-CMakeFiles/LexerTest.dir/Mlexer.cc.o: Mlexer.cc
-CMakeFiles/LexerTest.dir/Mlexer.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Matrixlang/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LexerTest.dir/Mlexer.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/Mlexer.cc.o -MF CMakeFiles/LexerTest.dir/Mlexer.cc.o.d -o CMakeFiles/LexerTest.dir/Mlexer.cc.o -c /home/matrix/Matrixlang/lexer/Mlexer.cc
+CMakeFiles/LexerTest.dir/src/Mlexer.cc.o: CMakeFiles/LexerTest.dir/flags.make
+CMakeFiles/LexerTest.dir/src/Mlexer.cc.o: src/Mlexer.cc
+CMakeFiles/LexerTest.dir/src/Mlexer.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LexerTest.dir/src/Mlexer.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/src/Mlexer.cc.o -MF CMakeFiles/LexerTest.dir/src/Mlexer.cc.o.d -o CMakeFiles/LexerTest.dir/src/Mlexer.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/Mlexer.cc
 
-CMakeFiles/LexerTest.dir/Mlexer.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/Mlexer.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Matrixlang/lexer/Mlexer.cc > CMakeFiles/LexerTest.dir/Mlexer.cc.i
+CMakeFiles/LexerTest.dir/src/Mlexer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/src/Mlexer.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Compiler-Lexer/lexer/src/Mlexer.cc > CMakeFiles/LexerTest.dir/src/Mlexer.cc.i
 
-CMakeFiles/LexerTest.dir/Mlexer.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/Mlexer.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Matrixlang/lexer/Mlexer.cc -o CMakeFiles/LexerTest.dir/Mlexer.cc.s
+CMakeFiles/LexerTest.dir/src/Mlexer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/src/Mlexer.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Compiler-Lexer/lexer/src/Mlexer.cc -o CMakeFiles/LexerTest.dir/src/Mlexer.cc.s
 
-CMakeFiles/LexerTest.dir/Mlexer_test.cc.o: CMakeFiles/LexerTest.dir/flags.make
-CMakeFiles/LexerTest.dir/Mlexer_test.cc.o: Mlexer_test.cc
-CMakeFiles/LexerTest.dir/Mlexer_test.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Matrixlang/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LexerTest.dir/Mlexer_test.cc.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/Mlexer_test.cc.o -MF CMakeFiles/LexerTest.dir/Mlexer_test.cc.o.d -o CMakeFiles/LexerTest.dir/Mlexer_test.cc.o -c /home/matrix/Matrixlang/lexer/Mlexer_test.cc
+CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o: CMakeFiles/LexerTest.dir/flags.make
+CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o: src/Mlexer_test.cc
+CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o: CMakeFiles/LexerTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o -MF CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o.d -o CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/Mlexer_test.cc
 
-CMakeFiles/LexerTest.dir/Mlexer_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/Mlexer_test.cc.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Matrixlang/lexer/Mlexer_test.cc > CMakeFiles/LexerTest.dir/Mlexer_test.cc.i
+CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matrix/Compiler-Lexer/lexer/src/Mlexer_test.cc > CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.i
 
-CMakeFiles/LexerTest.dir/Mlexer_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/Mlexer_test.cc.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Matrixlang/lexer/Mlexer_test.cc -o CMakeFiles/LexerTest.dir/Mlexer_test.cc.s
+CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matrix/Compiler-Lexer/lexer/src/Mlexer_test.cc -o CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.s
 
 # Object files for target LexerTest
 LexerTest_OBJECTS = \
-"CMakeFiles/LexerTest.dir/token.cc.o" \
-"CMakeFiles/LexerTest.dir/keyword_table.cc.o" \
-"CMakeFiles/LexerTest.dir/lexer.cc.o" \
-"CMakeFiles/LexerTest.dir/Mlexer.cc.o" \
-"CMakeFiles/LexerTest.dir/Mlexer_test.cc.o"
+"CMakeFiles/LexerTest.dir/src/token.cc.o" \
+"CMakeFiles/LexerTest.dir/src/keyword_table.cc.o" \
+"CMakeFiles/LexerTest.dir/src/lexer.cc.o" \
+"CMakeFiles/LexerTest.dir/src/Mlexer.cc.o" \
+"CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o"
 
 # External object files for target LexerTest
 LexerTest_EXTERNAL_OBJECTS =
 
-LexerTest: CMakeFiles/LexerTest.dir/token.cc.o
-LexerTest: CMakeFiles/LexerTest.dir/keyword_table.cc.o
-LexerTest: CMakeFiles/LexerTest.dir/lexer.cc.o
-LexerTest: CMakeFiles/LexerTest.dir/Mlexer.cc.o
-LexerTest: CMakeFiles/LexerTest.dir/Mlexer_test.cc.o
+LexerTest: CMakeFiles/LexerTest.dir/src/token.cc.o
+LexerTest: CMakeFiles/LexerTest.dir/src/keyword_table.cc.o
+LexerTest: CMakeFiles/LexerTest.dir/src/lexer.cc.o
+LexerTest: CMakeFiles/LexerTest.dir/src/Mlexer.cc.o
+LexerTest: CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o
 LexerTest: CMakeFiles/LexerTest.dir/build.make
 LexerTest: /usr/lib/libgtest.so.1.14.0
 LexerTest: CMakeFiles/LexerTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/matrix/Matrixlang/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable LexerTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/matrix/Compiler-Lexer/lexer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable LexerTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LexerTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/LexerTest.dir/clean:
 .PHONY : CMakeFiles/LexerTest.dir/clean
 
 CMakeFiles/LexerTest.dir/depend:
-	cd /home/matrix/Matrixlang/lexer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrix/Matrixlang/lexer /home/matrix/Matrixlang/lexer /home/matrix/Matrixlang/lexer /home/matrix/Matrixlang/lexer /home/matrix/Matrixlang/lexer/CMakeFiles/LexerTest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/matrix/Compiler-Lexer/lexer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/matrix/Compiler-Lexer/lexer /home/matrix/Compiler-Lexer/lexer /home/matrix/Compiler-Lexer/lexer /home/matrix/Compiler-Lexer/lexer /home/matrix/Compiler-Lexer/lexer/CMakeFiles/LexerTest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/LexerTest.dir/depend
 

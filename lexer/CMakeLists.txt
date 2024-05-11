@@ -5,15 +5,15 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add include directories
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 # Specify the executable and its source files
 add_executable(LexerTest
-  token.cc
-  keyword_table.cc
-  lexer.cc
-  Mlexer.cc
-  Mlexer_test.cc
+  src/token.cc
+  src/keyword_table.cc
+  src/lexer.cc
+  src/Mlexer.cc
+  src/Mlexer_test.cc
 )
 
 # Link against Google Test

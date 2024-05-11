@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/matrix/Matrixlang/lexer/Mlexer.cc" "CMakeFiles/LexerTest.dir/Mlexer.cc.o" "gcc" "CMakeFiles/LexerTest.dir/Mlexer.cc.o.d"
-  "/home/matrix/Matrixlang/lexer/Mlexer_test.cc" "CMakeFiles/LexerTest.dir/Mlexer_test.cc.o" "gcc" "CMakeFiles/LexerTest.dir/Mlexer_test.cc.o.d"
-  "/home/matrix/Matrixlang/lexer/keyword_table.cc" "CMakeFiles/LexerTest.dir/keyword_table.cc.o" "gcc" "CMakeFiles/LexerTest.dir/keyword_table.cc.o.d"
-  "/home/matrix/Matrixlang/lexer/lexer.cc" "CMakeFiles/LexerTest.dir/lexer.cc.o" "gcc" "CMakeFiles/LexerTest.dir/lexer.cc.o.d"
-  "/home/matrix/Matrixlang/lexer/token.cc" "CMakeFiles/LexerTest.dir/token.cc.o" "gcc" "CMakeFiles/LexerTest.dir/token.cc.o.d"
+  "/home/matrix/Compiler-Lexer/lexer/src/Mlexer.cc" "CMakeFiles/LexerTest.dir/src/Mlexer.cc.o" "gcc" "CMakeFiles/LexerTest.dir/src/Mlexer.cc.o.d"
+  "/home/matrix/Compiler-Lexer/lexer/src/Mlexer_test.cc" "CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o" "gcc" "CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o.d"
+  "/home/matrix/Compiler-Lexer/lexer/src/keyword_table.cc" "CMakeFiles/LexerTest.dir/src/keyword_table.cc.o" "gcc" "CMakeFiles/LexerTest.dir/src/keyword_table.cc.o.d"
+  "/home/matrix/Compiler-Lexer/lexer/src/lexer.cc" "CMakeFiles/LexerTest.dir/src/lexer.cc.o" "gcc" "CMakeFiles/LexerTest.dir/src/lexer.cc.o.d"
+  "/home/matrix/Compiler-Lexer/lexer/src/token.cc" "CMakeFiles/LexerTest.dir/src/token.cc.o" "gcc" "CMakeFiles/LexerTest.dir/src/token.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

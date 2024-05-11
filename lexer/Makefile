@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/matrix/Matrixlang/lexer
+CMAKE_SOURCE_DIR = /home/matrix/Compiler-Lexer/lexer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/matrix/Matrixlang/lexer
+CMAKE_BINARY_DIR = /home/matrix/Compiler-Lexer/lexer
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -97,9 +97,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrix/Matrixlang/lexer/CMakeFiles /home/matrix/Matrixlang/lexer//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrix/Compiler-Lexer/lexer/CMakeFiles /home/matrix/Compiler-Lexer/lexer//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrix/Matrixlang/lexer/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/matrix/Compiler-Lexer/lexer/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -139,125 +139,125 @@ LexerTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/build
 .PHONY : LexerTest/fast
 
-Mlexer.o: Mlexer.cc.o
-.PHONY : Mlexer.o
+src/Mlexer.o: src/Mlexer.cc.o
+.PHONY : src/Mlexer.o
 
 # target to build an object file
-Mlexer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/Mlexer.cc.o
-.PHONY : Mlexer.cc.o
+src/Mlexer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/Mlexer.cc.o
+.PHONY : src/Mlexer.cc.o
 
-Mlexer.i: Mlexer.cc.i
-.PHONY : Mlexer.i
+src/Mlexer.i: src/Mlexer.cc.i
+.PHONY : src/Mlexer.i
 
 # target to preprocess a source file
-Mlexer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/Mlexer.cc.i
-.PHONY : Mlexer.cc.i
+src/Mlexer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/Mlexer.cc.i
+.PHONY : src/Mlexer.cc.i
 
-Mlexer.s: Mlexer.cc.s
-.PHONY : Mlexer.s
+src/Mlexer.s: src/Mlexer.cc.s
+.PHONY : src/Mlexer.s
 
 # target to generate assembly for a file
-Mlexer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/Mlexer.cc.s
-.PHONY : Mlexer.cc.s
+src/Mlexer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/Mlexer.cc.s
+.PHONY : src/Mlexer.cc.s
 
-Mlexer_test.o: Mlexer_test.cc.o
-.PHONY : Mlexer_test.o
+src/Mlexer_test.o: src/Mlexer_test.cc.o
+.PHONY : src/Mlexer_test.o
 
 # target to build an object file
-Mlexer_test.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/Mlexer_test.cc.o
-.PHONY : Mlexer_test.cc.o
+src/Mlexer_test.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o
+.PHONY : src/Mlexer_test.cc.o
 
-Mlexer_test.i: Mlexer_test.cc.i
-.PHONY : Mlexer_test.i
+src/Mlexer_test.i: src/Mlexer_test.cc.i
+.PHONY : src/Mlexer_test.i
 
 # target to preprocess a source file
-Mlexer_test.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/Mlexer_test.cc.i
-.PHONY : Mlexer_test.cc.i
+src/Mlexer_test.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.i
+.PHONY : src/Mlexer_test.cc.i
 
-Mlexer_test.s: Mlexer_test.cc.s
-.PHONY : Mlexer_test.s
+src/Mlexer_test.s: src/Mlexer_test.cc.s
+.PHONY : src/Mlexer_test.s
 
 # target to generate assembly for a file
-Mlexer_test.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/Mlexer_test.cc.s
-.PHONY : Mlexer_test.cc.s
+src/Mlexer_test.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.s
+.PHONY : src/Mlexer_test.cc.s
 
-keyword_table.o: keyword_table.cc.o
-.PHONY : keyword_table.o
+src/keyword_table.o: src/keyword_table.cc.o
+.PHONY : src/keyword_table.o
 
 # target to build an object file
-keyword_table.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/keyword_table.cc.o
-.PHONY : keyword_table.cc.o
+src/keyword_table.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/keyword_table.cc.o
+.PHONY : src/keyword_table.cc.o
 
-keyword_table.i: keyword_table.cc.i
-.PHONY : keyword_table.i
+src/keyword_table.i: src/keyword_table.cc.i
+.PHONY : src/keyword_table.i
 
 # target to preprocess a source file
-keyword_table.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/keyword_table.cc.i
-.PHONY : keyword_table.cc.i
+src/keyword_table.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/keyword_table.cc.i
+.PHONY : src/keyword_table.cc.i
 
-keyword_table.s: keyword_table.cc.s
-.PHONY : keyword_table.s
+src/keyword_table.s: src/keyword_table.cc.s
+.PHONY : src/keyword_table.s
 
 # target to generate assembly for a file
-keyword_table.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/keyword_table.cc.s
-.PHONY : keyword_table.cc.s
+src/keyword_table.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/keyword_table.cc.s
+.PHONY : src/keyword_table.cc.s
 
-lexer.o: lexer.cc.o
-.PHONY : lexer.o
+src/lexer.o: src/lexer.cc.o
+.PHONY : src/lexer.o
 
 # target to build an object file
-lexer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/lexer.cc.o
-.PHONY : lexer.cc.o
+src/lexer.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/lexer.cc.o
+.PHONY : src/lexer.cc.o
 
-lexer.i: lexer.cc.i
-.PHONY : lexer.i
+src/lexer.i: src/lexer.cc.i
+.PHONY : src/lexer.i
 
 # target to preprocess a source file
-lexer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/lexer.cc.i
-.PHONY : lexer.cc.i
+src/lexer.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/lexer.cc.i
+.PHONY : src/lexer.cc.i
 
-lexer.s: lexer.cc.s
-.PHONY : lexer.s
+src/lexer.s: src/lexer.cc.s
+.PHONY : src/lexer.s
 
 # target to generate assembly for a file
-lexer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/lexer.cc.s
-.PHONY : lexer.cc.s
+src/lexer.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/lexer.cc.s
+.PHONY : src/lexer.cc.s
 
-token.o: token.cc.o
-.PHONY : token.o
+src/token.o: src/token.cc.o
+.PHONY : src/token.o
 
 # target to build an object file
-token.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/token.cc.o
-.PHONY : token.cc.o
+src/token.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/token.cc.o
+.PHONY : src/token.cc.o
 
-token.i: token.cc.i
-.PHONY : token.i
+src/token.i: src/token.cc.i
+.PHONY : src/token.i
 
 # target to preprocess a source file
-token.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/token.cc.i
-.PHONY : token.cc.i
+src/token.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/token.cc.i
+.PHONY : src/token.cc.i
 
-token.s: token.cc.s
-.PHONY : token.s
+src/token.s: src/token.cc.s
+.PHONY : src/token.s
 
 # target to generate assembly for a file
-token.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/token.cc.s
-.PHONY : token.cc.s
+src/token.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LexerTest.dir/build.make CMakeFiles/LexerTest.dir/src/token.cc.s
+.PHONY : src/token.cc.s
 
 # Help Target
 help:
@@ -269,21 +269,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... LexerTest"
-	@echo "... Mlexer.o"
-	@echo "... Mlexer.i"
-	@echo "... Mlexer.s"
-	@echo "... Mlexer_test.o"
-	@echo "... Mlexer_test.i"
-	@echo "... Mlexer_test.s"
-	@echo "... keyword_table.o"
-	@echo "... keyword_table.i"
-	@echo "... keyword_table.s"
-	@echo "... lexer.o"
-	@echo "... lexer.i"
-	@echo "... lexer.s"
-	@echo "... token.o"
-	@echo "... token.i"
-	@echo "... token.s"
+	@echo "... src/Mlexer.o"
+	@echo "... src/Mlexer.i"
+	@echo "... src/Mlexer.s"
+	@echo "... src/Mlexer_test.o"
+	@echo "... src/Mlexer_test.i"
+	@echo "... src/Mlexer_test.s"
+	@echo "... src/keyword_table.o"
+	@echo "... src/keyword_table.i"
+	@echo "... src/keyword_table.s"
+	@echo "... src/lexer.o"
+	@echo "... src/lexer.i"
+	@echo "... src/lexer.s"
+	@echo "... src/token.o"
+	@echo "... src/token.i"
+	@echo "... src/token.s"
 .PHONY : help
 
 

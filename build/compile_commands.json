@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/matrix/Compiler-Lexer/build",
+  "command": "/usr/sbin/clang++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/matrix/Compiler-Lexer/lexer/src -g -std=gnu++17 -o CMakeFiles/LexerTest.dir/src/token.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/token.cc",
+  "file": "/home/matrix/Compiler-Lexer/lexer/src/token.cc",
+  "output": "CMakeFiles/LexerTest.dir/src/token.cc.o"
+},
+{
+  "directory": "/home/matrix/Compiler-Lexer/build",
+  "command": "/usr/sbin/clang++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/matrix/Compiler-Lexer/lexer/src -g -std=gnu++17 -o CMakeFiles/LexerTest.dir/src/keyword_table.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/keyword_table.cc",
+  "file": "/home/matrix/Compiler-Lexer/lexer/src/keyword_table.cc",
+  "output": "CMakeFiles/LexerTest.dir/src/keyword_table.cc.o"
+},
+{
+  "directory": "/home/matrix/Compiler-Lexer/build",
+  "command": "/usr/sbin/clang++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/matrix/Compiler-Lexer/lexer/src -g -std=gnu++17 -o CMakeFiles/LexerTest.dir/src/lexer.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/lexer.cc",
+  "file": "/home/matrix/Compiler-Lexer/lexer/src/lexer.cc",
+  "output": "CMakeFiles/LexerTest.dir/src/lexer.cc.o"
+},
+{
+  "directory": "/home/matrix/Compiler-Lexer/build",
+  "command": "/usr/sbin/clang++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/matrix/Compiler-Lexer/lexer/src -g -std=gnu++17 -o CMakeFiles/LexerTest.dir/src/Mlexer.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/Mlexer.cc",
+  "file": "/home/matrix/Compiler-Lexer/lexer/src/Mlexer.cc",
+  "output": "CMakeFiles/LexerTest.dir/src/Mlexer.cc.o"
+},
+{
+  "directory": "/home/matrix/Compiler-Lexer/build",
+  "command": "/usr/sbin/clang++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/matrix/Compiler-Lexer/lexer/src -g -std=gnu++17 -o CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o -c /home/matrix/Compiler-Lexer/lexer/src/Mlexer_test.cc",
+  "file": "/home/matrix/Compiler-Lexer/lexer/src/Mlexer_test.cc",
+  "output": "CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o"
+}
+]

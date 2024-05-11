@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = -DGTEST_LINKED_AS_SHARED_LIBRARY=1
 
-CXX_INCLUDES = -I/home/matrix/Matrixlang/lexer
+CXX_INCLUDES = -I/home/matrix/Compiler-Lexer/lexer/src
 
 CXX_FLAGS = -std=gnu++17
 

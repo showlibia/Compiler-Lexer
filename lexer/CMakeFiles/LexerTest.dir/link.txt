@@ -1,1 +1,1 @@
-/usr/bin/clang++ CMakeFiles/LexerTest.dir/token.cc.o CMakeFiles/LexerTest.dir/keyword_table.cc.o CMakeFiles/LexerTest.dir/lexer.cc.o CMakeFiles/LexerTest.dir/Mlexer.cc.o CMakeFiles/LexerTest.dir/Mlexer_test.cc.o -o LexerTest  /usr/lib/libgtest.so.1.14.0 -lpthread
+/usr/bin/clang++ CMakeFiles/LexerTest.dir/src/token.cc.o CMakeFiles/LexerTest.dir/src/keyword_table.cc.o CMakeFiles/LexerTest.dir/src/lexer.cc.o CMakeFiles/LexerTest.dir/src/Mlexer.cc.o CMakeFiles/LexerTest.dir/src/Mlexer_test.cc.o -o LexerTest  /usr/lib/libgtest.so.1.14.0 -lpthread

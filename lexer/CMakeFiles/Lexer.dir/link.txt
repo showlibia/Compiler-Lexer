@@ -1,1 +1,0 @@
-/usr/bin/clang++ CMakeFiles/Lexer.dir/token.cc.o CMakeFiles/Lexer.dir/keyword_table.cc.o CMakeFiles/Lexer.dir/lexer.cc.o CMakeFiles/Lexer.dir/Mlexer.cc.o CMakeFiles/Lexer.dir/Mlexer_test.cc.o -o Lexer
